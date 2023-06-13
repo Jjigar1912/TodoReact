@@ -1,0 +1,48 @@
+.display 
+{
+    display: none !important;
+}
+.error
+{
+    max-width: 478px;
+    width : 100%;
+    margin : auto ;
+    display: flex;
+    justify-content: flex-start;
+    padding : 5px 0px; 
+    font-family: poppins;
+    color : red ; 
+} 
+form{
+    display: flex;
+    justify-content: center;
+    gap : 10px ;
+    input[type="text"]
+    {
+        padding : 10px 10px ; 
+        max-width : 400px;
+        width: 100%;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid #fff;
+        color : white ; 
+        font-family: poppins;
+    }
+    input[type="submit"]
+    {
+        padding: 10px 20px;
+        font-family: poppins;
+        border: none;
+        outline: none;
+        &:hover
+        {
+            background-color: transparent;
+            transition: .3s;
+            cursor: pointer;
+            color: white;
+            border: 1px solid #fff;
+        }
+    }
+}

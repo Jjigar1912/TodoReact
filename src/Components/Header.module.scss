@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+$text-color : #fff ; 
+.title{
+    text-align: center;
+    color: $text-color;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    &::after
+    {
+        content: url("../Images/icons8-todo-list-48.png");
+        position: relative;
+        top : 15px ;
+        left : 15px ;  
+    }
+}
